@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{}
+.board{}
+.singleBlock{display: flex;}
+.singleCell{width: 40px;height: 20px;padding: 10px;border: 1px solid black;background: lightblue;cursor: pointer;}
+
+.revealed{background: grey;}
+.bomb{background: red;}
+.tryAgainButton{padding: 10px 30px;background: grey;margin-bottom: 30px;width: 100px;margin: auto;}
